@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px;
+    padding: 20px;
     font-style: italic;
 }
 
@@ -26,7 +26,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     font-style: italic;
 }
 
@@ -50,7 +50,7 @@ header {
     background-size: cover;
     height: 100vh;
     padding: 30px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .text-container {
@@ -80,6 +80,9 @@ button {
     border-color: white;
     width: 1.7in;
 }
+.glyphicon glyphicon-envelope {
+    background-color: white;
+}
 
 .para-div {
     margin-top: 0.3in;
@@ -89,6 +92,7 @@ button {
 .main-section {
     background-color: #FFFFFF;
 }
+
 .main-c-for-s {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -105,8 +109,8 @@ button {
 }
 
 .main-c-for-s p h2 {
-text-align: left;
-/* margin-left: 1cm; */
+    text-align: left;
+    /* margin-left: 1cm; */
 }
 
 .s1 {
@@ -117,7 +121,8 @@ text-align: left;
     margin-left: 1cm;
     margin-right: 1cm;
 }
-.s1 h2{
+
+.s1 h2 {
     margin-left: 1cm;
     margin-top: 1.5in;
 }
@@ -126,10 +131,11 @@ text-align: left;
     background-color: #EC661F;
 }
 
-.s2 p{
+.s2 p {
     margin-left: 1cm;
     margin-right: 1cm;
 }
+
 .s2 h2 {
     margin-left: 1cm;
     margin-top: 1.5in;
@@ -138,10 +144,12 @@ text-align: left;
 .s3 {
     background-color: #4FB0DC;
 }
-.s3 p{
+
+.s3 p {
     margin-left: 1cm;
     margin-right: 1cm;
 }
+
 .s3 h2 {
     margin-left: 1cm;
     margin-top: 1.5in;
@@ -151,9 +159,22 @@ text-align: left;
     text-align: center;
 }
 
-.offer h1{
+.offer h1 {
     color: #0FB78D;
-       font-size: 35pt;
-       font-style: italic;
-       margin-bottom: 1cm;
+    font-size: 35pt;
+    font-style: italic;
+    margin-bottom: 1cm;
+}
+
+.offer p {
+    color: #333333;
+    margin-bottom: 1cm;
+}
+
+.sub-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 14px;
 }
