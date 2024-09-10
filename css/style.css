@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.before-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    font-style: italic;
+}
+
+.before-nav-items1 {
+    display: flex;
+    gap: 15px;
+}
+
+.before-nav-items2 {
+    display: flex;
+    gap: 15px;
+}
+
+nav {
+    /* background-color: rgba(0, 0, 0, 0.699); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-style: italic;
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+.nav-container {
+    display: flex;
+    gap: 15px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    background-image: url(../assets/images/image.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 30px;
+    text-align: center;
+}
+
+.text-container {
+    text-align: left;
+    color: white;
+    align-items: left;
+    font-weight: 300%;
+
+}
+
+/* .text-container p {
+text-align: left;
+align-items: left;
+margin-top: 0.5in;
+margin-bottom: 0.5in;
+} */
+
+.header-section {
+    text-align: left;
+}
+
+button {
+    color: white;
+    background-color: #0FB78D;
+    height: 0.5in;
+    border: 1cm;
+    border-color: white;
+    width: 1.7in;
+}
+
+.para-div {
+    margin-top: 0.3in;
+    margin-bottom: 0.3in;
+}
+
+.main-section {
+    background-color: #FFFFFF;
+}
+.main-c-for-s {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 35px;
+    grid-row-gap: 0px;
+    margin-top: 1in;
+    margin-bottom: 1in;
+    margin-left: 1in;
+    margin-right: 1in;
+    height: 3in;
+    /* text-align: center; */
+    line-height: 0.7cm;
+}
+
+.main-c-for-s p h2 {
+text-align: left;
+/* margin-left: 1cm; */
+}
+
+.s1 {
+    background-color: #5CB100;
+}
+
+.s1 p {
+    margin-left: 1cm;
+    margin-right: 1cm;
+}
+.s1 h2{
+    margin-left: 1cm;
+    margin-top: 1.5in;
+}
+
+.s2 {
+    background-color: #EC661F;
+}
+
+.s2 p{
+    margin-left: 1cm;
+    margin-right: 1cm;
+}
+.s2 h2 {
+    margin-left: 1cm;
+    margin-top: 1.5in;
+}
+
+.s3 {
+    background-color: #4FB0DC;
+}
+.s3 p{
+    margin-left: 1cm;
+    margin-right: 1cm;
+}
+.s3 h2 {
+    margin-left: 1cm;
+    margin-top: 1.5in;
+}
+
+.offer {
+    text-align: center;
+}
+
+.offer h1{
+    color: #0FB78D;
+       font-size: 35pt;
+       font-style: italic;
+       margin-bottom: 1cm;
+}
