@@ -29,8 +29,9 @@
     align-items: center;
     font-style: italic;
     padding-top: 0.8cm;
-    margin-left: 1cm;
-    margin-right: 1cm;
+    margin-left: 1in;
+    margin-right: 1in;
+
 }
 
 .nav-list {
@@ -52,7 +53,7 @@ header {
     background-image: url(../assets/images/hd2.png);
     background-position: center;
     background-size: cover;
-    height: 150vh;
+    height: 100vh;
     padding: 30px;
     text-align: center;
 }
@@ -64,8 +65,8 @@ header {
     font-weight: 300%;
     font-size: larger;
     width: 50%;
-    margin-left: 1cm;
-    margin-right: 1cm;
+    margin-left: 1in;
+    margin-right: 1in;
 
 }
 
@@ -93,11 +94,12 @@ button {
     border: 1cm;
     border-color: white;
     width: 1.7in;
+    border-radius: 20px;
 }
 
 .but1 {
-    margin-left: 1cm;
-    margin-right: 1cm;
+    margin-left: 1in;
+    margin-right: 1in;
 }
 
 .glyphicon glyphicon-envelope {
@@ -144,7 +146,7 @@ button {
 
 .s1 h2 {
     margin-left: 1cm;
-    margin-top: 1.5in;
+    /* margin-top: 1.5in; */
 }
 
 .s2 {
@@ -158,11 +160,12 @@ button {
 
 .s2 h2 {
     margin-left: 1cm;
-    margin-top: 1.5in;
+    /* margin-top: 1.5in; */
 }
 
 .s3 {
     background-color: #4FB0DC;
+
 }
 
 .s3 p {
@@ -172,7 +175,7 @@ button {
 
 .s3 h2 {
     margin-left: 1cm;
-    margin-top: 1.5in;
+    /* margin-top: 1.5in; */
 }
 
 .offer {
@@ -197,7 +200,6 @@ button {
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 30px;
     grid-row-gap: 14px;
-    margin-left: 1cm;
-    margin-right: 1cm;
+    margin-left: 1in;
+    margin-right: 1in;
 }
-
