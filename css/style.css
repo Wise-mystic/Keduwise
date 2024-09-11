@@ -180,6 +180,7 @@ button {
 
 .offer {
     text-align: center;
+
 }
 
 .offer h1 {
@@ -192,6 +193,8 @@ button {
 .offer p {
     color: #333333;
     margin-bottom: 1cm;
+    margin-left: 5cm;
+    margin-right: 5cm;
 }
 
 .sub-container {
