@@ -1,210 +1,213 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .before-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-style: italic;
-    padding-top: 0.2cm;
-    margin-left: 1cm;
-    margin-right: 1cm;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-style: italic;
+  padding-top: 0.2cm;
+  margin-left: 1cm;
+  margin-right: 1cm;
 }
 
 .before-nav-items1 {
-    display: flex;
-    gap: 0.2cm;
+  display: flex;
+  gap: 0.2cm;
 }
 
 .before-nav-items2 {
-    display: flex;
-    gap: 0.2cm;
+  display: flex;
+  gap: 0.2cm;
 }
 
 .my-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-style: italic;
-    padding-top: 0.8cm;
-    margin-left: 1in;
-    margin-right: 1in;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-style: italic;
+  padding-top: 0.8cm;
+  margin-left: 1in;
+  margin-right: 1in;
 }
 
 .nav-list {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .nav-container {
-    display: flex;
-    justify-content: space-between;
-    gap: 0.2cm;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.2cm;
 }
 
 header a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 header {
-    background-image: url(../assets/images/hd2.png);
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    padding: 30px;
-    text-align: center;
+  background-image: url(../assets/images/hd2.png);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  padding: 30px;
+  text-align: center;
 }
 
 .text-container {
-    text-align: left;
-    color: white;
-    align-items: left;
-    font-weight: 300%;
-    font-size: larger;
-    width: 50%;
-    margin-left: 1in;
-    margin-right: 1in;
-
+  text-align: left;
+  color: white;
+  align-items: left;
+  font-weight: 300%;
+  font-size: larger;
+  width: 50%;
+  margin-left: 1in;
+  margin-right: 1in;
 }
 
 .text-container h1 {
-    font-size: 1.5cm;
-    width: 90%;
+  font-size: 1.5cm;
+  width: 90%;
 }
 
 .text-container p {
-    text-align: left;
-    align-items: left;
-    margin-top: 0.5in;
-    margin-bottom: 0.5in;
-    width: 75%;
+  text-align: left;
+  align-items: left;
+  margin-top: 0.5in;
+  margin-bottom: 0.5in;
+  width: 75%;
 }
 
 .header-section {
-    text-align: left;
+  text-align: left;
 }
 
 button {
-    color: white;
-    background-color: #0FB78D;
-    height: 0.5in;
-    border: 1cm;
-    border-color: white;
-    width: 1.7in;
-    border-radius: 20px;
+  color: white;
+  background-color: #0fb78d;
+  height: 0.5in;
+  border: 1cm;
+  border-color: white;
+  width: 1.7in;
+  border-radius: 20px;
 }
 
 .but1 {
-    margin-left: 1in;
-    margin-right: 1in;
+  margin-left: 1in;
+  margin-right: 1in;
 }
 
 .glyphicon glyphicon-envelope {
-    background-color: white;
+  background-color: white;
 }
 
 .para-div {
-    margin-top: 0.3in;
-    margin-bottom: 0.3in;
+  margin-top: 0.3in;
+  margin-bottom: 0.3in;
 }
 
 .main-section {
-    background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .main-c-for-s {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 35px;
-    grid-row-gap: 0px;
-    margin-top: 1in;
-    margin-bottom: 1in;
-    margin-left: 1in;
-    margin-right: 1in;
-    height: 3in;
-    /* text-align: center; */
-    line-height: 0.7cm;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 35px;
+  grid-row-gap: 0px;
+  margin-top: 1in;
+  margin-bottom: 1in;
+  margin-left: 1in;
+  margin-right: 1in;
+  height: 3in;
+  /* text-align: center; */
+  line-height: 0.7cm;
 }
 
 .main-c-for-s p h2 {
-    text-align: left;
-    /* margin-left: 1cm; */
+  text-align: left;
+  /* margin-left: 1cm; */
 }
 
 .s1 {
-    background-color: #5CB100;
+  background-color: #5cb100;
 }
 
 .s1 p {
-    margin-left: 1cm;
-    margin-right: 1cm;
+  margin-left: 1cm;
+  margin-right: 1cm;
 }
 
 .s1 h2 {
-    margin-left: 1cm;
-    /* margin-top: 1.5in; */
+  margin-left: 1cm;
+  /* margin-top: 1.5in; */
 }
 
 .s2 {
-    background-color: #EC661F;
+  background-color: #ec661f;
 }
 
 .s2 p {
-    margin-left: 1cm;
-    margin-right: 1cm;
+  margin-left: 1cm;
+  margin-right: 1cm;
 }
 
 .s2 h2 {
-    margin-left: 1cm;
-    /* margin-top: 1.5in; */
+  margin-left: 1cm;
+  /* margin-top: 1.5in; */
 }
 
 .s3 {
-    background-color: #4FB0DC;
-
+  background-color: #4fb0dc;
 }
 
 .s3 p {
-    margin-left: 1cm;
-    margin-right: 1cm;
+  margin-left: 1cm;
+  margin-right: 1cm;
 }
 
 .s3 h2 {
-    margin-left: 1cm;
-    /* margin-top: 1.5in; */
+  margin-left: 1cm;
+  /* margin-top: 1.5in; */
 }
 
 .offer {
-    text-align: center;
-
+  text-align: center;
 }
 
 .offer h1 {
-    color: #0FB78D;
-    font-size: 35pt;
-    font-style: italic;
-    margin-bottom: 1cm;
+  color: #0fb78d;
+  font-size: 35pt;
+  font-style: italic;
+  margin-bottom: 1cm;
 }
 
 .offer p {
-    color: #333333;
-    margin-bottom: 1cm;
-    margin-left: 5cm;
-    margin-right: 5cm;
+  color: #333333;
+  margin-bottom: 1cm;
+  margin-left: 5cm;
+  margin-right: 5cm;
 }
 
 .sub-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 30px;
-    grid-row-gap: 14px;
-    margin-left: 1in;
-    margin-right: 1in;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 14px;
+  margin-left: 1in;
+  margin-right: 1in;
 }
 
-.tomo
+.tomorrow-container {
+   text-align: center;
+  line-height: 1cm;
+  background-image: url(../assets/images/about_2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 200vh; 
+}
