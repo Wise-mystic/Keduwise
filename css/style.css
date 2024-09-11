@@ -7,27 +7,26 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
     font-style: italic;
+    padding-top: 0.2cm;
 }
 
 .before-nav-items1 {
     display: flex;
-    gap: 15px;
+    gap: 0.2cm;
 }
 
 .before-nav-items2 {
     display: flex;
-    gap: 15px;
-}
+    gap: 0.2cm;
+    }
 
-nav {
-    /* background-color: rgba(0, 0, 0, 0.699); */
+.my-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
     font-style: italic;
+    padding-top: 0.8cm;
 }
 
 .nav-list {
@@ -36,7 +35,8 @@ nav {
 
 .nav-container {
     display: flex;
-    gap: 15px;
+    justify-content: space-between;
+    gap: 0.2cm;
 }
 
 header a {
@@ -45,12 +45,13 @@ header a {
 }
 
 header {
-    background-image: url(../assets/images/image.png);
+    background-image: url(../assets/images/image\ copy.png);
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 150vh;
     padding: 30px;
-    /* text-align: center; */
+    text-align: center;
+    
 }
 
 .text-container {
@@ -80,6 +81,7 @@ button {
     border-color: white;
     width: 1.7in;
 }
+
 .glyphicon glyphicon-envelope {
     background-color: white;
 }
@@ -177,4 +179,4 @@ button {
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 30px;
     grid-row-gap: 14px;
-}
+}*
