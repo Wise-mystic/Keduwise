@@ -204,10 +204,21 @@ button {
 }
 
 .tomorrow-container {
-   text-align: center;
+  text-align: center;
   line-height: 1cm;
   background-image: url(../assets/images/about_2.jpg);
   background-size: cover;
   background-position: center;
-  height: 200vh; 
+  height: 200vh;
+}
+
+.text-container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.but2 {
+  position: relative;
+  left: 6in;
 }
