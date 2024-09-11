@@ -49,7 +49,7 @@ header a {
 }
 
 header {
-    background-image: url(../assets/images/image\ copy.png);
+    background-image: url(../assets/images/hd2.png);
     background-position: center;
     background-size: cover;
     height: 150vh;
@@ -197,6 +197,7 @@ button {
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 30px;
     grid-row-gap: 14px;
+    margin-left: 1cm;
+    margin-right: 1cm;
 }
 
-*
