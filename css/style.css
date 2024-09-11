@@ -9,6 +9,8 @@
     align-items: center;
     font-style: italic;
     padding-top: 0.2cm;
+    margin-left: 1cm;
+    margin-right: 1cm;
 }
 
 .before-nav-items1 {
@@ -19,7 +21,7 @@
 .before-nav-items2 {
     display: flex;
     gap: 0.2cm;
-    }
+}
 
 .my-nav {
     display: flex;
@@ -27,6 +29,8 @@
     align-items: center;
     font-style: italic;
     padding-top: 0.8cm;
+    margin-left: 1cm;
+    margin-right: 1cm;
 }
 
 .nav-list {
@@ -51,7 +55,6 @@ header {
     height: 150vh;
     padding: 30px;
     text-align: center;
-    
 }
 
 .text-container {
@@ -59,15 +62,25 @@ header {
     color: white;
     align-items: left;
     font-weight: 300%;
+    font-size: larger;
+    width: 50%;
+    margin-left: 1cm;
+    margin-right: 1cm;
 
 }
 
-/* .text-container p {
-text-align: left;
-align-items: left;
-margin-top: 0.5in;
-margin-bottom: 0.5in;
-} */
+.text-container h1 {
+    font-size: 1.5cm;
+    width: 90%;
+}
+
+.text-container p {
+    text-align: left;
+    align-items: left;
+    margin-top: 0.5in;
+    margin-bottom: 0.5in;
+    width: 75%;
+}
 
 .header-section {
     text-align: left;
@@ -80,6 +93,11 @@ button {
     border: 1cm;
     border-color: white;
     width: 1.7in;
+}
+
+.but1 {
+    margin-left: 1cm;
+    margin-right: 1cm;
 }
 
 .glyphicon glyphicon-envelope {
@@ -179,4 +197,6 @@ button {
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 30px;
     grid-row-gap: 14px;
-}*
+}
+
+*
